@@ -21,7 +21,7 @@ for (let m = 2; m<=T; m++){
 }
 
 //for the overall solution
-for (let j = 0; j<=T; j++){
+for (let j = 0; j<T; j++){
     if (C[j]!==0){
         D+=1;
     }
