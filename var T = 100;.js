@@ -26,4 +26,4 @@ for (let j = 0; j<T; j++){
         D+=1;
     }
 }
-console.log(D);
+console.log(D); //the answer is 10
