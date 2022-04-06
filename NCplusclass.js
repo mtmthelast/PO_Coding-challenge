@@ -4,7 +4,7 @@
 
 //First class
 let Circ = class Circ{
-    constructor(arr,m){
+    constructor(arr,m){ //arr represents the array, m represents the number of index rotations each value undergoes.
     for (let j = 0; j<m; j++){
     let C = arr[0];
     for (let i = 0; i<arr.length; i++){
@@ -36,9 +36,9 @@ let RevCirc = class RevCirc{
 //proof of class RevCirc
 let Z = [2,5,4,7,1,5,9,0];
 var RZ = new RevCirc(Z,3);
-console.log(RZ);
+console.log(RZ); // result is [5, 9, 0, 2, 5, 4, 7, 1]
 
 //proof of class Circ
 let A = ["grammar", "math", "science", "social studies", "art", "gym"];
 var AB = new Circ(A,2);
-console.log(AB);
+console.log(AB); // result is [ 'science', 'social studies', 'art', 'gym', 'grammar', 'math' ]
