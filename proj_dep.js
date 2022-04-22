@@ -53,6 +53,8 @@ function dep(l,m){
     for(let  x =0; x<l.length; x++){
         if(fc !==sc || l[x][0]==l[x][1] || m.includes(l[x][0])==false || m.includes(l[x][1])==false){
             Order = "error"
+        }else if(Order.length!==m.length){
+            Order = "error";
         }
     }
    
