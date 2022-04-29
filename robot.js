@@ -1,8 +1,8 @@
 // Movement algorithm
 //untested
 
-let x = 5;
-let y = 10;
+let x = 5;//example
+let y = 10;//example
 let pos = [];
 let cap = [];
 const chunk = (arr, size) =>
@@ -10,8 +10,7 @@ const chunk = (arr, size) =>
     arr.slice(i * size, i * size + size)
   );
 
-let exc = chunk([1,2,2,6,2,7,2,10,3,1,3,2,3,3,3,4,3,6,3,7,3,8,4,10,5,2,5,4,5,5,,5,8], 2);
-//let exc = [[2,3],[2,5],[2,6],[2,7],[2,10.],[3,1],[3,4],[3,5],[4,4],[4,5],[4,7],[5,2],[5,3],[5,6]]
+let exc = chunk([1,2,2,6,2,7,2,10,3,1,3,2,3,3,3,4,3,6,3,7,3,8,4,10,5,2,5,4,5,5,,5,8], 2);//example
 const includesMultiDimension = (arr, str) =>
 JSON.stringify(arr).includes(str);
 
